@@ -3,7 +3,7 @@ import {
     Managmentcontact,
     Hadercontainer,
     Headerasset,
-    Whyassetsimg,
+    Whyassets,
     Assetsimagebox,
     Hadersection,
     Haederwrapper,
@@ -21,7 +21,7 @@ import {
             <Haederwrapper>
               <Headerasset>
                 <Assetsimagebox>
-                  <Whyassetsimg
+                  <Whyassets
                     src={Headermanagment}
                     alt="volkermunko"
                   />
@@ -34,7 +34,7 @@ import {
                   </ContactButton>
                   <Smallnavigation
                     src="https://cdn.zeplin.io/5fedbd677b1a145df349f5a4/assets/a22a9827-da86-48f7-8526-38cf0d7e4c92.svg"
-                    alt="navigation"
+                    alt="navigation menu"
                   />
                 </Navigationwrapper>
               </Headerasset>

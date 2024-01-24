@@ -59,11 +59,11 @@ export const FooterHorizontal = styled.hr`
 `;
 
 export const Footerend = styled.footer`
+  display: flex;
+  justify-content: space-between;
   color: #ffffff;
   margin: 0 19px 20px;
   padding: 20px 20px 10px 20px;
-  display: flex;
-  justify-content: space-between;
 
   @media (max-width: 991px) {
     margin: 0;
@@ -74,7 +74,8 @@ export const Footerend = styled.footer`
 
 export const Rightsection = styled.div`
   display: flex;
-
+  list-style: none;
+  
   @media (max-width: 991px) {
     padding: 0px 0px 0px 135px;
     margin: 16px 23px 0px 8px;
@@ -84,6 +85,6 @@ export const Rightsection = styled.div`
 export const Verticalline = styled.div`
   height: 12px;
   width: 0;
-  border: solid 0.5px #ffffff;
+  border: 0.5px solid  #ffffff;
   margin: 0px 12px 0px;
 `;

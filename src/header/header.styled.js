@@ -6,10 +6,8 @@ export const Hadercontainer = styled.div`
   max-width: 1366px;
   margin: 0 auto;
   background-color: #f9f9f9;
-
-  @media (max-width: 991px) {
-  }
 `;
+
 export const Haederwrapper = styled.div`
   margin: 0 19px 20px;
   padding: 33px 120px 0 118px;
@@ -36,7 +34,7 @@ export const Assetsimagebox = styled.div`
   }
 `;
 
-export const Whyassetsimg = styled.img`
+export const Whyassets = styled.img`
   width: 100%;
   max-width: 108px;
   height: 63px;

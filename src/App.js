@@ -4,6 +4,7 @@ import { GlobalStyles } from './App.style';
 import { Advantagespage } from './advantages/advantages';
 import { Footerpage } from './footer/footer';
 import { Header } from './header/header';
+import { Productpage } from './products/products';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <GlobalStyles />
       <Advantagespage/>
       <Footerpage/>
+      <Productpage/>
       <Header/>
     </div>
   );
