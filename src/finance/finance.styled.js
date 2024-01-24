@@ -59,7 +59,6 @@ export const Financeheading = styled.div`
   font-size: 50px;
   line-height: 50px;
   color: #14183e;
-  z-index: 1;
 
   @media (max-width: 991px) {
     max-width: 256px;
@@ -67,7 +66,8 @@ export const Financeheading = styled.div`
     line-height: 34px;
     margin: 3px 0px 14px 0px;
   }
-  ::before {
+  &::before {
+    content: "";
     position: absolute;
     width: 100%;
     max-width: 377px;
@@ -78,7 +78,7 @@ export const Financeheading = styled.div`
   }
 `;
 
-export const Financedisccription = styled.p`
+export const Financediscription = styled.p`
   color: #37415c;
   width: 100%;
   max-width: 500px;
@@ -108,17 +108,9 @@ export const Buttontextstyled = styled.p`
   font-family: "Nunito-Bold";
 `;
 
-export const Advicecomponent = styled.div`
-  width: 100%;
-  max-width: 50px;
-  height: 0;
-  border: 1px solid #3b3b3c;
 
-  @media (max-width: 991px) {
-    max-width: 15px;
-    border: 1px solid #3b3b3c;
-  }
-`;
+
+
 
 export const Headingstyled = styled.p`
   width: 100%;
@@ -193,22 +185,6 @@ export const Verticalline = styled.div`
 
   @media (max-width: 991px) {
     margin: 1px 40px 15px;
-  }
-`;
-
-export const HeadingGradient = styled.div`
-  width: 100%;
-  max-width: 427px;
-  height: 68px;
-  position: relative;
-  top: -180px;
-  z-index: 0;
-  background: linear-gradient(to bottom, #f8e9ed, #fbfbfb);
-
-  @media (max-width: 991px) {
-    max-width: 250px;
-    top: -84px;
-    height: 44px;
   }
 `;
 

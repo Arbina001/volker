@@ -1,7 +1,7 @@
 import {Contectusbutton,
     Buttontextstyled,
     Financecontainer,
-    Financedisccription,
+    Financediscription,
     Financeinnerwrapper,
     Financeleftbox,
     Financerightbox,
@@ -9,9 +9,7 @@ import {Contectusbutton,
     Financeheading,
     Financewrapper,
     Headingstyled,
-    Advicecomponent,
     Headingbox,
-    HeadingGradient,
     Servicebox,
     Servicediscription,
     Serviceleftbox,
@@ -31,21 +29,20 @@ return (
           <Financeinnerwrapper>
             <Financeleftbox>
               <Financeheading>Competence for your finances</Financeheading>
-              <HeadingGradient />
-              <Financedisccription>
+              <Financediscription>
                 It is a long established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout.
                 The point of using Lorem Ipsum is that it has a more-or-less
                 normal distribution of letters, as opposed to using 'Content
                 here, content here', making it look like readable English
-              </Financedisccription>
+              </Financediscription>
               <Contectusbutton>
                 <Buttontextstyled>Contact</Buttontextstyled>
               </Contectusbutton>
             </Financeleftbox>
             <Financerightbox>
               <Headingbox>
-                <Advicecomponent />
+                
                 <Headingstyled>EXCELLENT ADVICE</Headingstyled>
               </Headingbox>
               <Servicewrapper>
