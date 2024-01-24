@@ -91,8 +91,8 @@ export const TextStyled = styled.span`
 
 export const Detailsbox = styled.li`
   display: flex;
-align-items: center;
-justify-content: center;
+  align-items: center;
+  justify-content: center;
 
   @media (max-width: 991px) {
     margin: -18px 0px 0px 17px

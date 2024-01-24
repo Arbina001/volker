@@ -100,7 +100,7 @@ export const Managmentcontact = styled.p`
   }
 `;
 
-export const Smallnavigation = styled.img`
+export const navigationbar = styled.img`
   display: none;
 
   @media (max-width: 991px) {
