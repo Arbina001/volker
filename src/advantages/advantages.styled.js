@@ -42,7 +42,7 @@ export const Advantageleftside = styled.div`
 export const Headingstyled = styled.div`
   color: #000000;
   font-size: 56px;
-font-family:'Quicksand-Bold';
+font-family: Quicksand-Bold;
   line-height: 70px;
   padding: 9px 9px 20px 16px;
 
@@ -80,7 +80,7 @@ export const ContentDiscription = styled.li`
   background-color: #000000;
   color: #ffffff;
   border-radius: 50%;
-  border: 2px solid;
+  border: 2px solid #ffffff;
   height: 20px;
   width: 20px;
 `;

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Theme } from "../theme";
 
 export const Cardcontainer = styled.li`
   width: 100%;
@@ -7,8 +8,8 @@ export const Cardcontainer = styled.li`
   margin: 33px 5px 31px 17px;
   padding: 20px 17px 39px 25px;
   border-radius: 20px;
-  border: solid 1px #e9e5e5;
-  background-color: #fff;
+  border: solid 1px ${Theme.offwhite};
+  background-color: ${Theme.white};
   position: relative;
 
   &:hover {
@@ -18,7 +19,7 @@ export const Cardcontainer = styled.li`
     &::before {
       position: absolute;
       content: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable EnglishLorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English";
-      color: #ffffff;
+      color: ${Theme.white};
       font-size: 16px;
       padding: 10px;
       box-sizing: border-box;
@@ -59,8 +60,8 @@ export const Contactusbutton = styled.div`
   font-size: 15px;
   padding: 13px 0px 0px 0px;
   border-radius: 10px;
-  background-color: #ececec;
-  text-shadow: 4px 4px 10px #ffffff;
+  background-color: ${Theme.offwhite};
+  text-shadow: 4px 4px 10px ${Theme.white};
 `;
 
 export const Carddiscription = styled.div`

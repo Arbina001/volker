@@ -1,21 +1,11 @@
 import styled from "styled-components";
+import { Theme } from "../theme";
 
 export const Productssection = styled.section``;
 
-export const Productscontainer = styled.div`
-  width: 100%;
-  max-width: 1500px;
-  margin: 0 auto;
-  background-image: url(https://cdn.zeplin.io/5fedbd677b1a145df349f5a4/assets/4c70244a-b294-4264-9b08-d933a2910183.svg);
-
-  @media (max-width: 991px) {
-    max-width: max-content;
-  }
-`;
-
 export const Productswrapper = styled.div`
   width: 100%;
-  max-width: 1328px;
+  max-width: 1200px;
 
   @media (max-width: 991px) {
     max-width: 1000px;
@@ -48,7 +38,7 @@ export const Productstitle = styled.p`
   font-weight: bold;
   line-height: 34px;
   text-align: center;
-  color: #14183e;
+  color: ${Theme.darkblue};
 
   @media (max-width: 991px) {
     font-size: 20px;
@@ -60,9 +50,9 @@ export const Productscontent = styled.p`
   width: 100%;
   max-width: 1000px;
   height: 64px;
-  font-family: Quicksand, sans-serif;
+  font-family: Quicksand;
   text-align: center;
-  color: #14183e;
+  color: ${Theme.darkblue};
 
   @media (max-width: 991px) {
     font-size: 15px;
@@ -81,7 +71,7 @@ export const Privatebuttonbox = styled.div`
   max-width: 244px;
   height: 41px;
   border-radius: 36px;
-  background-color: #474748;
+  background-color: ${Theme.gray};
 
   @media (max-width: 991px) {
     height: 34px;
@@ -94,9 +84,9 @@ export const Privatebuttontitle = styled.div`
   justify-content: center;
   gap: 20px;
   padding: 10px 0px;
-  color: #ffffff;
+  color: ${Theme.white};
   margin: 0;
-  text-shadow: 4px 4px 20px #ffffff;
+  text-shadow: 4px 4px 20px ${Theme.white};
 
   @media (max-width: 991px) {
     font-size: 9px;
@@ -111,8 +101,8 @@ export const Corporateprivatetitle = styled.div`
   height: 41px;
   border-radius: 36px;
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.03);
-  border: solid 1px #eee0e4;
-  background-color: #ffffff;
+  border: solid 1px ${Theme.shadedpink};
+  background-color: ${Theme.white};
 
   @media (max-width: 991px) {
     max-width: 331px;
@@ -132,7 +122,7 @@ export const Corporatetitle = styled.div`
   justify-content: center;
   gap: 20px;
   padding: 9px 23px;
-  color: #000000;
+  color: ${Theme.darkblue};
   margin: 0;
-  text-shadow: 4px 4px 20px #ffffff;
+  text-shadow: 4px 4px 20px ${Theme.white};
 `;

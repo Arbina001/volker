@@ -1,11 +1,12 @@
 import styled from "styled-components";
+import { Theme } from "../theme";
 export const Hadersection = styled.section``;
 
 export const Hadercontainer = styled.div`
   width: 100%;
   max-width: 1366px;
   margin: 0 auto;
-  background-color: #f9f9f9;
+  background-color: ${Theme.offwhite};
 `;
 
 export const Haederwrapper = styled.div`
@@ -46,12 +47,12 @@ export const Whyassetmanagmentbox = styled.div`
   max-width: 272px;
   height: 27px;
   margin: 22px 24px 19px 1px;
-  font-family: "Nunito-SemiBold";
+  font-family: Nunito-SemiBold;
   font-size: 20px;
   line-height: 12px;
   letter-spacing: 2px;
   text-align: left;
-  color: #37415c;
+  color: ${Theme.gray};
 
   @media (max-width: 991px) {
     display: none;
@@ -63,11 +64,11 @@ export const Aboutwrapper = styled.div`
   max-width: 110px;
   height: 27px;
   margin: 27px 13px 4px 3px;
-  font-family: "Nunito-SemiBold";
+  font-family: Nunito-SemiBold;
   font-size: 20px;
   line-height: 2px;
   text-align: left;
-  color: #37415c;
+  color: ${Theme.gray};
 
   @media (max-width: 991px) {
     display: none;
@@ -79,7 +80,7 @@ export const ContactButton = styled.button`
   max-width: 136px;
   height: 50px;
   border-radius: 10px;
-  background-color: #fff;
+  background-color: ${Theme.white};
   border: none;
   margin: 5px 0px;
 
@@ -89,11 +90,11 @@ export const ContactButton = styled.button`
 `;
 
 export const Managmentcontact = styled.p`
-  font-family: "Nunito-SemiBold";
+  font-family: Nunito-SemiBold;
   font-size: 16px;
   font-weight: bold;
   line-height: 3px;
-  color: #3b3b3c;
+  color: ${Theme.gray};
 
   @media (max-width: 991px) {
     display: none;

@@ -1,6 +1,5 @@
 import React from 'react';
 import {
-  Footercontainer,
   Footerdiscription,
   Footerend,
   FooterHorizontal,
@@ -12,11 +11,12 @@ import {
   Verticalline,
 } from "./footer.styled";
 import Volkermunko from "../assets/volkermunko.png";
+import { Container } from '../App.style';
 
 export function Footerpage() {
   return (
     <Footersection>
-      <Footercontainer>
+      <Container> 
         <Footerwrapper>
           <Footerinnerwrapper>
             <FooterLogo src={Volkermunko} alt="volker-munko" />
@@ -28,7 +28,7 @@ export function Footerpage() {
             </Footerdiscription>
           </Footerinnerwrapper>
         </Footerwrapper>
-        <FooterHorizontal />
+        <FooterHorizontal/>
         <Footerend>
             @2020 Volker Munko
           <ul>
@@ -41,7 +41,7 @@ export function Footerpage() {
             </Rightsection>
           </ul>
         </Footerend>
-      </Footercontainer>
+        </Container>
     </Footersection>
   );
 }

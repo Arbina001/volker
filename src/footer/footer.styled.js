@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Theme } from "../theme";
 
 export const Footersection = styled.section`
 background-image: url(https://cdn.zeplin.io/5fedbd677b1a145df349f5a4/assets/b8ebc7b6-3e25-4f50-a136-6d9bbcc23102.svg);
@@ -49,19 +50,19 @@ export const FooterLogo = styled.img`
 export const Footerdiscription = styled.div`
   padding: 12px 0px 0px 0px;
   text-align: center;
-  color: #ffffff;
+  color: ${Theme.darkblue};
   line-height: 2;
 `;
 
 export const FooterHorizontal = styled.hr`
   margin: 20px 0px 0px 0px;
-  background-color: #ffffff;
+  background-color:${Theme.white};
 `;
 
 export const Footerend = styled.footer`
   display: flex;
   justify-content: space-between;
-  color: #ffffff;
+  color: ${Theme.white};
   margin: 0 19px 20px;
   padding: 20px 20px 10px 20px;
 
@@ -85,6 +86,6 @@ export const Rightsection = styled.div`
 export const Verticalline = styled.div`
   height: 12px;
   width: 0;
-  border: 0.5px solid  #ffffff;
+  border: 0.5px solid ${Theme.white};
   margin: 0px 12px 0px;
 `;

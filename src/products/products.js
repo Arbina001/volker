@@ -5,7 +5,6 @@ import {
     Privatebuttontitle,
     Productstitlewrapper,
     Producatsinnerwrapper,
-    Productscontainer,
     Productssection,
     Productswrapper,
     Productbuttonslogo,
@@ -16,12 +15,13 @@ import {
   import ManIcon from "../assets/chair.png";
   import CorporateManIcon from "../assets/human.png";
   import { Cardspage } from "./cards";
+import { Container } from "../App.style";
   
   export function Productpage() {
     return (
       <>
         <Productssection>
-          <Productscontainer>
+          <Container>  
             <Productswrapper>
               <Producatsinnerwrapper>
                 <Productstitlewrapper>
@@ -50,7 +50,7 @@ import {
                 <Cardspage />
               </Producatsinnerwrapper>
             </Productswrapper>
-          </Productscontainer>
+            </Container>
         </Productssection>
       </>
     );

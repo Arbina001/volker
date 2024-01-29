@@ -13,11 +13,12 @@ import {
     Whyassetmanagmentbox,
   } from "./header.styled";
   import Headermanagment from "../assets/volker-munko.png";
+import { Container } from "../App.style";
   export function Header() {
     return (
       <>
         <Hadersection>
-          <Hadercontainer>
+          <Container>  
             <Haederwrapper>
               <Headerasset>
                 <Assetsimagebox>
@@ -39,7 +40,7 @@ import {
                 </Navigationwrapper>
               </Headerasset>
             </Haederwrapper>
-          </Hadercontainer>
+            </Container>
         </Hadersection>
       </>
     );
