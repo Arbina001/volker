@@ -1,5 +1,4 @@
-
-import {styled, createGlobalStyle } from "styled-components";
+import { styled, createGlobalStyle } from "styled-components";
 import NunitoBlack from "./fonts/Nunito-Black.ttf";
 import NunitoBold from "./fonts/Nunito-Bold.ttf";
 import NunitoRegular from "./fonts/Nunito-Regular.ttf";

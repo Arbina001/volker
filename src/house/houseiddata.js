@@ -29,32 +29,31 @@ export const Data = [
   },
 ];
 export const Detailsdata = [
-    {
-      id: 6,
-      svg: Corporatelogo,
-      Title:
-        "What alternatives are there to the savings book? Is my money well spent?",
-    },
-    {
-      id: 7,
-      svg: Corporatelogo,
-      Title: "How can I reduce taxes and social security contributions?",
-    },
-    {
-      id: 8,
-      svg: Corporatelogo,
-      Title: "How can I use government funding?",
-    },
-    {
-      id: 9,
-      svg: Corporatelogo,
-      Title:
-        "What alternatives are there to the savings book? Is my money well spent?",
-    },
-    {
-      id: 10,
-      svg: Corporatelogo,
-      Title: "How can I protect my money from inflation?",
-    },
-  ];
-  
+  {
+    id: 6,
+    svg: Corporatelogo,
+    Title:
+      "What alternatives are there to the savings book? Is my money well spent?",
+  },
+  {
+    id: 7,
+    svg: Corporatelogo,
+    Title: "How can I reduce taxes and social security contributions?",
+  },
+  {
+    id: 8,
+    svg: Corporatelogo,
+    Title: "How can I use government funding?",
+  },
+  {
+    id: 9,
+    svg: Corporatelogo,
+    Title:
+      "What alternatives are there to the savings book? Is my money well spent?",
+  },
+  {
+    id: 10,
+    svg: Corporatelogo,
+    Title: "How can I protect my money from inflation?",
+  },
+];

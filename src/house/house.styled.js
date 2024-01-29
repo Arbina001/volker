@@ -4,7 +4,7 @@ import Housebackground from "../assets/designs.png";
 import { Theme } from "../theme";
 
 export const Wealthsection = styled.section`
- position: relative;
+  position: relative;
   background: url(${Housebackground});
   background-repeat: no-repeat;
   background-size: cover;
@@ -63,7 +63,7 @@ export const Wealthheading = styled.div`
   position: relative;
   max-width: 565px;
   width: 100%;
-  font-family:Nunito-Bold;
+  font-family: Nunito-Bold;
   font-size: 52px;
   font-weight: 500;
   line-height: 70px;
@@ -78,7 +78,7 @@ export const Wealthheading = styled.div`
     bottom: -44px;
     padding: 0 0 2px 0;
     width: 190px;
-    background:${Theme.white};
+    background: ${Theme.white};
   }
 
   @media (max-width: 991px) {
@@ -109,8 +109,8 @@ export const Wealthdetailsdata = styled.li`
   align-items: flex-start;
   max-width: 490px;
   width: 100%;
-  margin: 0;  
-  font-family:Nunito-Regular;
+  margin: 0;
+  font-family: Nunito-Regular;
 
   @media (max-width: 991px) {
     margin: 0 0px 20px -30px;
@@ -122,7 +122,7 @@ export const Data = styled.div`
 `;
 
 export const Wealthrightsideinnerbox = styled.div`
-height: 100%;
+  height: 100%;
 `;
 
 export const Wealthdetails = styled.p`
@@ -130,7 +130,7 @@ export const Wealthdetails = styled.p`
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
-  color:${Theme.white};
+  color: ${Theme.white};
 
   @media (max-width: 991px) {
     font-size: 14px;
@@ -152,12 +152,12 @@ export const Wealthrightboxdata = styled.ul`
   display: flex;
   flex-flow: column;
   align-items: end;
-  height: 100%;
   justify-content: end;
   list-style: none;
+  height: 100%;
 
   @media (max-width: 991px) {
-    margin: 0 0 0 -30px;
+    margin: 0 0 0 20px;
     justify-content: flex-start;
   }
 `;

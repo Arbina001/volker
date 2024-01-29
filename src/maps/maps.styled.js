@@ -5,7 +5,7 @@ export const Mapssection = styled.section``;
 
 export const Mapswrapper = styled.div`
   margin: 0 19px 20px;
-    padding: 33px 20px 0px 36px;
+  padding: 33px 20px 0 36px;
 
   @media (max-width: 991px) {
     margin: 0;
@@ -41,7 +41,7 @@ export const StyledMapIframe = styled.iframe`
   @media (max-width: 991px) {
     width: 300px;
     height: 300px;
-    padding: 0px 0px 23px 0;
+    padding: 0 0 23px 0;
     border-radius: 0px;
   }
 `;
@@ -60,7 +60,7 @@ export const ContactAssetBox = styled.div`
   position: relative;
   font-size: 22px;
   font-weight: 500;
-  padding: 0px 0px 0px 31px;
+  padding: 0 0 0 31px;
 
   &::before {
     content: "";
@@ -70,10 +70,10 @@ export const ContactAssetBox = styled.div`
     height: 0;
     top: 12px;
     left: -3px;
-    border: solid 1px ${Theme.lightgreay};
+    border:  1px solid ${Theme.lightgreay};
   }
   @media (max-width: 991px) {
-    padding: 0px 0px 3px 29px;
+    padding: 0 0 3px 29px;
   }
 `;
 
@@ -82,7 +82,7 @@ export const ContactAsset = styled.div`
   max-width: 22px;
   height: 0;
   margin: 14px 14px 0 0;
-  border: solid 1px ${Theme.lightgreay};
+  border:  1px solid ${Theme.lightgreay};
 `;
 
 export const VolkerMunko = styled.div`
@@ -90,7 +90,7 @@ export const VolkerMunko = styled.div`
   max-width: 258px;
   height: 20px;
   margin: 0 0 9px;
-  padding: 31px 0px 0px;
+  padding: 31px 0 0;
   font-family: Nunito-Medium;
   font-size: 31px;
   font-weight: bold;
@@ -105,7 +105,7 @@ export const Mapsiconwrapper = styled.div`
   gap: 20px;
   width: 100%;
   max-width: 300px;
-  padding: 58px 0px 0px;
+  padding: 58px 0 0;
 `;
 
 export const Mapsicon = styled.img`

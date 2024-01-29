@@ -19,7 +19,7 @@ export const Housepage = () => {
   return (
     <>
       <Wealthsection>
-        <Container> 
+        <Container>
           <Wealthwrapper>
             <Wealthinnerwrapper>
               <Wealthleftsection>
@@ -54,7 +54,7 @@ export const Housepage = () => {
               </Wealthrightside>
             </Wealthinnerwrapper>
           </Wealthwrapper>
-          </Container>
+        </Container>
       </Wealthsection>
     </>
   );
