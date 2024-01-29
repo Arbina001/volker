@@ -1,26 +1,27 @@
 import { Container } from "../App.style";
 import {
-    Managmentsection,
-    Managmentwrapper,
-    Managmentinnerwrapper,
-    Managmentrightbox,
-    Managmentbox,
-    Managmentgradient,
+    Managementsection,
+    Managementwrapper,
+    Managementinnerwrapper,
+    Managementrightbox,
+    Managementbox,
+    Managementgradient,
     Distributiondiscription,
     Buttonwrapper,
     Buttontxtstyled,
     Contactusbuttonwrapper,
+    
   } from "./managment.styled";
   export function Managmentpage() {
     return (
       <>
-        <Managmentsection>
+        <Managementsection>
           <Container> 
-            <Managmentwrapper>
-              <Managmentinnerwrapper>
-                <Managmentrightbox>
-                  <Managmentbox>Asset management</Managmentbox>
-                  <Managmentgradient />
+            <Managementwrapper>
+              <Managementinnerwrapper>
+                <Managementrightbox>
+                  <Managementbox>Asset management</Managementbox>
+                  {/* <Managementgradient /> */}
                   <Distributiondiscription>
                     It is a long established fact that a reader will be distracted
                     by the readable content of a page when looking at its layout.
@@ -30,14 +31,14 @@ import {
                   <Buttonwrapper>
                     <Buttontxtstyled>Contact Us</Buttontxtstyled>
                   </Buttonwrapper>
-                </Managmentrightbox>
-              </Managmentinnerwrapper>
-            </Managmentwrapper>
+                </Managementrightbox>
+              </Managementinnerwrapper>
+            </Managementwrapper>
             <Contactusbuttonwrapper>
               <Buttontxtstyled>Contact Us</Buttontxtstyled>
             </Contactusbuttonwrapper>
             </Container>
-        </Managmentsection>
+        </Managementsection>
       </>
     );
   }

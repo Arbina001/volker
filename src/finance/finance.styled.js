@@ -15,9 +15,9 @@ export const Financewrapper = styled.div`
 
 export const Financeinnerwrapper = styled.div`
   display: flex;
-  gap: 50px;
   justify-content:center;
   align-items: center;
+  gap: 50px;
 
   @media (max-width: 991px) {
     flex-direction: column;
@@ -120,8 +120,8 @@ export const Headingstyled = styled.p`
 export const Headingbox = styled.div`
   display: flex;
   align-items: center;
-  width: 100%;
   gap: 20px;
+  width: 100%;
 
   @media (max-width: 991px) {
     gap: 15px;

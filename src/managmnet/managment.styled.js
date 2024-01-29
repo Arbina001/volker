@@ -1,10 +1,10 @@
 import styled from "styled-components";
 import { Theme } from "../theme";
+import volkermanagement from "../assets/volkermanagement.png";
+export const Managementsection = styled.section``;
 
-export const Managmentsection = styled.section``;
-
-export const Managmentwrapper = styled.div`
-background: url(https://cdn.zeplin.io/5fedbd677b1a145df349f5a4/assets/315bba66-2840-4652-bca2-8c3ccf59bcb2.png) no-repeat right 20px bottom 10px;
+export const Managementwrapper = styled.div`
+background: url(${volkermanagement}) no-repeat right 20px bottom 10px;
 background-size: 660px 640px;
 height: 652px;
 
@@ -13,7 +13,7 @@ height: 652px;
  }
 `;
 
-export const Managmentinnerwrapper = styled.div`
+export const Managementinnerwrapper = styled.div`
  display: flex;
  align-items: center;
  justify-content: center;
@@ -24,7 +24,7 @@ export const Managmentinnerwrapper = styled.div`
  }
 `;
 
-export const Managmentgradient = styled.div`
+export const Managementgradient = styled.div`
  width: 100%;
  max-width: 427px;
  height: 68px;
@@ -49,7 +49,7 @@ export const LeftBox = styled.div`
  }
 `;
 
-export const Managmentrightbox = styled.div`
+export const Managementrightbox = styled.div`
  width: 100%;
  max-width: 1000px;
 
@@ -70,9 +70,9 @@ export const LeftBoxImage = styled.img`
  }
 `;
 
-export const Managmentbox = styled.div`
+export const Managementbox = styled.div`
  width: 100%;
- max-width: 20px;
+ max-width: 300px;
  font-family: Nunito-Regular;
  font-size: 54px;
  font-weight: bold;
@@ -80,6 +80,20 @@ export const Managmentbox = styled.div`
  color:${Theme.darkblue};
  z-index: 1;
  position: relative;
+
+ &::before {
+   content: "";
+   width: 100%;
+    max-width: 200px;
+    height: 65px;
+    position: absolute;
+    z-index: -1;
+   background-image: linear-gradient(to bottom, #F8E9ED, #FBFBFB);
+
+ @media (max-width: 991px) {
+  max-width: 250px;
+  height: 44px;
+ }}
 
  @media (max-width: 991px) {
   font-size: 30px;

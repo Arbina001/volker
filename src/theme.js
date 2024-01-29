@@ -18,5 +18,6 @@ export const Theme = {
   voilet: '#803583',
   red: '#FF3D00',
   darkblue: '#000000',
-shadedpink: '#eee0e4'
+shadedpink: '#eee0e4',
+pinkLightSecond: "#e9e5e5",
   };

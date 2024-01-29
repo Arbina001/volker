@@ -1,26 +1,27 @@
 import styled from "styled-components";
-import HouseProtection from "../assets/house.png";
-import HouseProtectionBackground from "../assets/designs.png";
+import House from "../assets/house.png";
+import Housebackground from "../assets/designs.png";
 import { Theme } from "../theme";
 
 export const Wealthsection = styled.section`
-  position: relative;
-  background: url(${HouseProtectionBackground});
+ position: relative;
+  background: url(${Housebackground});
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
 
   &:before {
     content: "";
-    background: url(${HouseProtection});
+    position: absolute;
+    background: url(${House});
     background-repeat: no-repeat;
     background-position: center top;
-    background-size: 540px 578px;
-    position: absolute;
-    max-width: 550px;
-    height: 500px; 
-    right: 0;
+    background-size: 500px 500px;
+    width: 100%;
+    max-width: 560px;
+    height: 528px;
     top: 167px;
+    right: 0;
 
     @media (max-width: 991px) {
       width: 100%;
@@ -67,7 +68,7 @@ export const Wealthheading = styled.div`
   font-weight: 500;
   line-height: 70px;
   color: ${Theme.white};
-  margin: 0 0 100px 0;
+  top: -80px;
   padding: 62px 0 0 0;
 
   &::before {
@@ -106,9 +107,9 @@ export const Wealthdetailsdata = styled.li`
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  margin: 0;
   max-width: 490px;
   width: 100%;
+  margin: 0;  
   font-family:Nunito-Regular;
 
   @media (max-width: 991px) {
@@ -120,7 +121,9 @@ export const Data = styled.div`
   margin: 30px 30px 0 0;
 `;
 
-export const Wealthrightsideinnerbox = styled.div``;
+export const Wealthrightsideinnerbox = styled.div`
+height: 100%;
+`;
 
 export const Wealthdetails = styled.p`
   font-family: Nunito-Regular;
@@ -138,6 +141,7 @@ export const Wealthrightside = styled.div`
   max-width: 500px;
   width: 100%;
   margin: 0 0 0 30px;
+  height: 800px;
 
   @media (max-width: 991px) {
     max-width: 344px;
@@ -145,10 +149,15 @@ export const Wealthrightside = styled.div`
 `;
 
 export const Wealthrightboxdata = styled.ul`
-  margin: 550px 0 0 0;
+  display: flex;
+  flex-flow: column;
+  align-items: end;
+  height: 100%;
+  justify-content: end;
   list-style: none;
 
   @media (max-width: 991px) {
-    margin: 0 0 0 -28px;
+    margin: 0 0 0 -30px;
+    justify-content: flex-start;
   }
 `;
