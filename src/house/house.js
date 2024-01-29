@@ -1,7 +1,6 @@
 import React from "react";
 import {
   Wealthsection,
-  Wealthcontainer,
   Wealthwrapper,
   Wealthinnerwrapper,
   Wealthleftsection,
@@ -14,11 +13,12 @@ import {
 } from "./house.styled";
 import { Wealthmanagmentprops } from "./housedata";
 import { Data, Detailsdata } from "./houseiddata";
+import { Container } from "../App.style";
 export const Housepage = () => {
   return (
     <>
       <Wealthsection>
-        <Wealthcontainer>
+        <Container> 
           <Wealthwrapper>
             <Wealthinnerwrapper>
               <Wealthleftsection>
@@ -53,7 +53,7 @@ export const Housepage = () => {
               </Wealthrightside>
             </Wealthinnerwrapper>
           </Wealthwrapper>
-        </Wealthcontainer>
+          </Container>
       </Wealthsection>
     </>
   );

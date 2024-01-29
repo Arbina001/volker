@@ -1,6 +1,5 @@
 import {Contectusbutton,
     Buttontextstyled,
-    Financecontainer,
     Financediscription,
     Financeinnerwrapper,
     Financeleftbox,
@@ -20,11 +19,12 @@ import {Contectusbutton,
 
 import Headelsimage from "../assets/service.png";
 import Exellentimage from "../assets/exellent.png";
+import { Container } from '../App.style';
 export function Financepage() {
 return (
   <>
     <Financesection>
-      <Financecontainer>
+    <Container>
         <Financewrapper>
           <Financeinnerwrapper>
             <Financeleftbox>
@@ -50,14 +50,14 @@ return (
                   <Serviceleftbox>
                     <ServiceleftboxImage
                       src={Headelsimage}
-                      alt="headelsimg"
+                      alt="service"
                     />
                   </Serviceleftbox>
                   <Verticalline />
                   <Servicerightbox>
                     <ServiceleftboxImage
                       src={Exellentimage}
-                      alt="exellentimg"
+                      alt="exellent"
                     />
                   </Servicerightbox>
                 </Servicebox>
@@ -69,7 +69,7 @@ return (
             </Financerightbox>
           </Financeinnerwrapper>
         </Financewrapper>
-      </Financecontainer>
+      </Container>
     </Financesection>
   </>
 );

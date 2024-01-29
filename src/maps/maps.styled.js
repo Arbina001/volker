@@ -2,16 +2,6 @@ import styled from "styled-components";
 
 export const Mapssection = styled.section``;
 
-export const Mapscontainer = styled.div`
-  width: 100%;
-  max-width: 1050px;
-  margin: 0 auto;
-
-  @media (max-width: 991px) {
-    max-width: max-content;
-  }
-`;
-
 export const Mapswrapper = styled.div`
   margin: 0 19px 20px;
     padding: 33px 20px 0px 36px;
@@ -100,7 +90,7 @@ export const VolkerMunko = styled.div`
   height: 20px;
   margin: 0 0 9px;
   padding: 31px 0px 0px;
-  font-family: 'Nunito-Medium';
+  font-family: Nunito-Medium;
   font-size: 31px;
   font-weight: bold;
   line-height: 34px;

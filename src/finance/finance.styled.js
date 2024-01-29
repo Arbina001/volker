@@ -2,16 +2,6 @@ import styled from "styled-components";
 
 export const Financesection = styled.section``;
 
-export const Financecontainer = styled.div`
-  width: 100%;
-  max-width: 1366px;
-  margin: 0 auto;
-
-  @media (max-width: 991px) {
-    max-width: max-content;
-  }
-`;
-
 export const Financewrapper = styled.div`
   margin: 0 26px 0 58px;
   padding: 27px 80px 0px 112px;
@@ -55,7 +45,7 @@ export const Financeheading = styled.div`
   max-width: 370px;
   position: relative;
   margin: 0 0 68px 0;
-  font-family: "Nunito-bold";
+  font-family: Nunito-Bold;
   font-size: 50px;
   line-height: 50px;
   color: #14183e;
@@ -82,7 +72,7 @@ export const Financediscription = styled.p`
   color: #37415c;
   width: 100%;
   max-width: 500px;
-  font-family: "Nunito-Regular";
+  font-family: Nunito-Regular;
   line-height: 28px;
 
   @media (max-width: 991px) {
@@ -105,19 +95,15 @@ export const Buttontextstyled = styled.p`
   color: #14183e;
   text-shadow: 4px 4px 20px #ffffff;
   font-size: 16px;
-  font-family: "Nunito-Bold";
+  font-family: Nunito-Bold;
 `;
-
-
-
-
 
 export const Headingstyled = styled.p`
   width: 100%;
   max-width: 263px;
   height: 33px;
   margin: 2px 0px 0px 0px;
-  font-family: "Nunito-bold";
+  font-family: Nunito-Bold;
   font-size: 24px;
   line-height: 34px;
   text-align: left;
@@ -149,7 +135,7 @@ export const Servicewrapper = styled.div`
   height: 328px;
   border-radius: 23px;
   border: 1px solid #cfcfcf;
-  background-color: #fff;
+  background-color: #ffffff;
   margin: 42px 0px 0px 0px;
 
   @media (max-width: 991px) {

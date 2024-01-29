@@ -31,8 +31,6 @@ export const Wealthsection = styled.section`
   }
 `;
 
-export const Wealthcontainer = styled.div``;
-
 export const Wealthwrapper = styled.div`
   width: 100%;
   max-width: 1050px;
@@ -63,7 +61,7 @@ export const Wealthheading = styled.div`
   position: relative;
   max-width: 565px;
   width: 100%;
-  font-family: 'Nunito-Bold';
+  font-family: Nunito-Bold;
   font-size: 52px;
   font-weight: 500;
   line-height: 70px;
@@ -110,7 +108,7 @@ export const Wealthdetailsdata = styled.li`
   margin: 0;
   max-width: 490px;
   width: 100%;
-  font-family: "Nunito-Regular";
+  font-family: Nunito-Regular;
 
   @media (max-width: 991px) {
     margin: 0 0px 20px -30px;
@@ -124,7 +122,7 @@ export const Data = styled.div`
 export const Wealthrightsideinnerbox = styled.div``;
 
 export const Wealthdetails = styled.p`
-  font-family: "Nunito-Regular";
+  font-family: Nunito-Regular;
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;

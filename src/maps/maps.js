@@ -1,5 +1,4 @@
 import {
-    Mapscontainer,
     Mapssection,
     Mapswrapper,
     Mapsinnerwrapper,
@@ -14,12 +13,13 @@ import {
   import Mapssearchlogo from "../assets/searchpin.png";
   import Contactlogo from "../assets/contact.png";
   import Emaillogo from "../assets/email.png";
+import { Container } from "../App.style";
   
   export function Mapspage() {
     return (
       <>
         <Mapssection>
-          <Mapscontainer>
+          <Container> 
             <Mapswrapper>
               <Mapsinnerwrapper>
                 <MapsBox>
@@ -32,22 +32,22 @@ import {
                   <ContactAssetBox>CONTACT</ContactAssetBox>
                   <VolkerMunko>Volker Munko</VolkerMunko>
                   <Mapsiconwrapper>
-                    <Mapsicon src={Mapssearchlogo} alt="searchpinimg" />
+                    <Mapsicon src={Mapssearchlogo} alt="search-pin" />
                     Office for Allfinanz German investment advice On the heath 8
                     32602 Vlotho
                   </Mapsiconwrapper>
                   <Mapsiconwrapper>
-                    <Mapsicon src={Contactlogo} alt="contactimg" />
-                    25753 12354
+                  <Mapsicon src={Contactlogo} alt="contact" />
+  <a href="tel:2575312354">25753 12354</a>
                   </Mapsiconwrapper>
                   <Mapsiconwrapper>
-                    <Mapsicon src={Emaillogo} alt="emailimg" />
-                    Volker.Munko@allfinanz.ag
+                  <Mapsicon src={Emaillogo} alt="email" />
+  <a href="mailto:Volker.Munko@allfinanz.ag">Volker.Munko@allfinanz.ag</a>
                   </Mapsiconwrapper>
                 </Mapsdiscription>
               </Mapsinnerwrapper>
             </Mapswrapper>
-          </Mapscontainer>
+            </Container>
         </Mapssection>
       </>
     );

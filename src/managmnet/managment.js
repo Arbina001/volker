@@ -1,6 +1,6 @@
+import { Container } from "../App.style";
 import {
     Managmentsection,
-    Managmentcontainer,
     Managmentwrapper,
     Managmentinnerwrapper,
     Managmentrightbox,
@@ -15,7 +15,7 @@ import {
     return (
       <>
         <Managmentsection>
-          <Managmentcontainer>
+          <Container> 
             <Managmentwrapper>
               <Managmentinnerwrapper>
                 <Managmentrightbox>
@@ -36,7 +36,7 @@ import {
             <Contactusbuttonwrapper>
               <Buttontxtstyled>Contact Us</Buttontxtstyled>
             </Contactusbuttonwrapper>
-          </Managmentcontainer>
+            </Container>
         </Managmentsection>
       </>
     );

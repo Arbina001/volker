@@ -1,14 +1,5 @@
 import styled from "styled-components";
 export const Managmentsection = styled.section``;
-export const Managmentcontainer = styled.div`
- margin: 20px;
- position: relative;
- padding: 6px 0 30px;
-
- @media (max-width: 991px) {
-  max-width: max-content;
- }
-`;
 
 export const Managmentwrapper = styled.div`
 background: url(https://cdn.zeplin.io/5fedbd677b1a145df349f5a4/assets/315bba66-2840-4652-bca2-8c3ccf59bcb2.png) no-repeat right 20px bottom 10px;
@@ -16,7 +7,7 @@ background-size: 660px 640px;
 height: 652px;
 
  @media (max-width: 991px) {
- background-size: 300px 300px;
+ background-size: 350px 350px;
  }
 `;
 
@@ -80,7 +71,7 @@ export const LeftBoxImage = styled.img`
 export const Managmentbox = styled.div`
  width: 100%;
  max-width: 20px;
- font-family: “Nunito-Regular”;
+ font-family: Nunito-Regular;
  font-size: 54px;
  font-weight: bold;
  text-align: right;
@@ -89,7 +80,7 @@ export const Managmentbox = styled.div`
  position: relative;
 
  @media (max-width: 991px) {
-  font-size: 24px;
+  font-size: 30px;
  }
 `;
 
@@ -107,7 +98,7 @@ export const Distributiondiscription = styled.p`
  @media (max-width: 991px) {
   line-height: 20px;
   text-align: left;
-  font-size: 12px;
+  font-size: 14px;
  }
 `;
 
@@ -118,10 +109,9 @@ export const Buttonwrapper = styled.button`
  border-radius: 10px;
  border: none;
  background-color: #484849;
- margin: 62px 874px 0 4px;
+ margin: 70px 0 0 0;
 
  @media (max-width: 991px) {
-  display: none;
   margin: 0;
  }
 `;
@@ -130,20 +120,18 @@ export const Contactusbuttonwrapper = styled.button`
  display: none;
  width: 100%;
  height: 60px;
- margin: 62px 874px 0 4px;
  border-radius: 10px;
  border: none;
  background-color: #484849;
 
  @media (max-width: 991px) {
-  display: block;
-  max-width: 280px;
-  margin: 0;
+    max-width: 160px;
+    margin: 16px 0px 0px 49px
  }
 `;
 
 export const Buttontxtstyled = styled.p`
- font-family: 'Nunito-Regular';
+ font-family: Nunito-Regular;
  font-size: 16px;
  font-weight: 600;
  color: #ffffff;
