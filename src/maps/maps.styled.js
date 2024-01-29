@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Theme } from "../theme";
 
 export const Mapssection = styled.section``;
 
@@ -69,7 +70,7 @@ export const ContactAssetBox = styled.div`
     height: 0;
     top: 12px;
     left: -3px;
-    border: solid 1px #4d4d4e;
+    border: solid 1px ${Theme.lightgreay};
   }
   @media (max-width: 991px) {
     padding: 0px 0px 3px 29px;
@@ -81,7 +82,7 @@ export const ContactAsset = styled.div`
   max-width: 22px;
   height: 0;
   margin: 14px 14px 0 0;
-  border: solid 1px #4d4d4e;
+  border: solid 1px ${Theme.lightgreay};
 `;
 
 export const VolkerMunko = styled.div`
@@ -96,7 +97,7 @@ export const VolkerMunko = styled.div`
   line-height: 34px;
   letter-spacing: 3px;
   text-align: left;
-  color: #14183e;
+  color: ${Theme.darkblue};
 `;
 
 export const Mapsiconwrapper = styled.div`

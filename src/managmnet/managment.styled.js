@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import { Theme } from "../theme";
+
 export const Managmentsection = styled.section``;
 
 export const Managmentwrapper = styled.div`
@@ -75,7 +77,7 @@ export const Managmentbox = styled.div`
  font-size: 54px;
  font-weight: bold;
  text-align: right;
- color: #14183E;
+ color:${Theme.darkblue};
  z-index: 1;
  position: relative;
 
@@ -93,7 +95,7 @@ export const Distributiondiscription = styled.p`
  font-size: 16px;
  line-height: 33px;
  text-align: left;
- color: #37415C;
+ color: ${Theme.lightgreay};
 
  @media (max-width: 991px) {
   line-height: 20px;
@@ -108,7 +110,7 @@ export const Buttonwrapper = styled.button`
  height: 58px;
  border-radius: 10px;
  border: none;
- background-color: #484849;
+ background-color: ${Theme.lightgreay};
  margin: 70px 0 0 0;
 
  @media (max-width: 991px) {
@@ -122,7 +124,7 @@ export const Contactusbuttonwrapper = styled.button`
  height: 60px;
  border-radius: 10px;
  border: none;
- background-color: #484849;
+ background-color: ${Theme.lightgreay};
 
  @media (max-width: 991px) {
     max-width: 160px;
@@ -134,6 +136,6 @@ export const Buttontxtstyled = styled.p`
  font-family: Nunito-Regular;
  font-size: 16px;
  font-weight: 600;
- color: #ffffff;
- text-shadow: 4px 4px 20px #ffffff;
+ color: ${Theme.white};
+ text-shadow: 4px 4px 20px ${Theme.white};
 `;

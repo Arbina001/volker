@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Theme } from "../theme";
 
 export const Financesection = styled.section``;
 
@@ -48,7 +49,7 @@ export const Financeheading = styled.div`
   font-family: Nunito-Bold;
   font-size: 50px;
   line-height: 50px;
-  color: #14183e;
+  color:${Theme.darkblue};
 
   @media (max-width: 991px) {
     max-width: 256px;
@@ -69,7 +70,7 @@ export const Financeheading = styled.div`
 `;
 
 export const Financediscription = styled.p`
-  color: #37415c;
+  color: ${Theme.lightgreay};
   width: 100%;
   max-width: 500px;
   font-family: Nunito-Regular;
@@ -87,13 +88,13 @@ export const Contectusbutton = styled.button`
   height: 60px;
   border-radius: 10px;
   border: none;
-  background-color: #e6e6e6;
+  background-color: ${Theme.offwhite};
   margin: 32px 0px;
 `;
 
 export const Buttontextstyled = styled.p`
   color: #14183e;
-  text-shadow: 4px 4px 20px #ffffff;
+  text-shadow: 4px 4px 20px ${Theme.white};
   font-size: 16px;
   font-family: Nunito-Bold;
 `;
@@ -107,7 +108,7 @@ export const Headingstyled = styled.p`
   font-size: 24px;
   line-height: 34px;
   text-align: left;
-  color: #14183e;
+  color: ${Theme.darkblue};
 
   @media (max-width: 991px) {
     font-size: 14px;
@@ -134,8 +135,8 @@ export const Servicewrapper = styled.div`
   max-width: 400px;
   height: 328px;
   border-radius: 23px;
-  border: 1px solid #cfcfcf;
-  background-color: #ffffff;
+  border: 1px solid ${Theme.offwhite};
+  background-color: ${Theme.white};
   margin: 42px 0px 0px 0px;
 
   @media (max-width: 991px) {
@@ -167,7 +168,7 @@ export const Verticalline = styled.div`
   width: 0;
   height: 141px;
   margin: 1px 44px 48px;
-  border: 0.5px solid #cfcfcf;
+  border: 0.5px solid ${Theme.offwhite};
 
   @media (max-width: 991px) {
     margin: 1px 40px 15px;
@@ -179,5 +180,5 @@ export const Servicediscription = styled.div`
   max-width: 320px;
   text-align: center;
   font-size: 14px;
-  color: #707684;
+  color: ${Theme.darkgreay};
 `;

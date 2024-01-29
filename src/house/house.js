@@ -11,6 +11,7 @@ import {
   Wealthrightsideinnerbox,
   Wealthrightboxdata,
 } from "./house.styled";
+
 import { Wealthmanagmentprops } from "./housedata";
 import { Data, Detailsdata } from "./houseiddata";
 import { Container } from "../App.style";

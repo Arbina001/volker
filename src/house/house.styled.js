@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import HouseProtection from "../assets/house.png";
 import HouseProtectionBackground from "../assets/designs.png";
+import { Theme } from "../theme";
 
 export const Wealthsection = styled.section`
   position: relative;
@@ -65,7 +66,7 @@ export const Wealthheading = styled.div`
   font-size: 52px;
   font-weight: 500;
   line-height: 70px;
-  color: #ffffff;
+  color: ${Theme.white};
   margin: 0 0 100px 0;
   padding: 62px 0 0 0;
 
@@ -76,7 +77,7 @@ export const Wealthheading = styled.div`
     bottom: -44px;
     padding: 0 0 2px 0;
     width: 190px;
-    background: #ffffff;
+    background:${Theme.white};
   }
 
   @media (max-width: 991px) {
@@ -126,7 +127,7 @@ export const Wealthdetails = styled.p`
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
-  color: #f3f3f3;
+  color:${Theme.white};
 
   @media (max-width: 991px) {
     font-size: 14px;
