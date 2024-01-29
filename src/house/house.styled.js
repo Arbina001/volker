@@ -17,7 +17,7 @@ export const Wealthsection = styled.section`
     background-position: center top;
     background-size: 540px 578px;
     position: absolute;
-    width: 550px;
+    max-width: 550px;
     height: 500px; 
     right: 0;
     top: 167px;
@@ -62,7 +62,7 @@ export const Wealthheading = styled.div`
   position: relative;
   max-width: 565px;
   width: 100%;
-  font-family: Nunito-Bold;
+  font-family:Nunito-Bold;
   font-size: 52px;
   font-weight: 500;
   line-height: 70px;
@@ -109,7 +109,7 @@ export const Wealthdetailsdata = styled.li`
   margin: 0;
   max-width: 490px;
   width: 100%;
-  font-family: Nunito-Regular;
+  font-family:Nunito-Regular;
 
   @media (max-width: 991px) {
     margin: 0 0px 20px -30px;
