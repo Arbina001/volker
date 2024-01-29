@@ -95,7 +95,7 @@ export const Distributiondiscription = styled.p`
  font-size: 16px;
  line-height: 33px;
  text-align: left;
- color: ${Theme.lightgreay};
+ color: ${Theme.greay};
 
  @media (max-width: 991px) {
   line-height: 20px;
@@ -110,7 +110,7 @@ export const Buttonwrapper = styled.button`
  height: 58px;
  border-radius: 10px;
  border: none;
- background-color: ${Theme.lightgreay};
+ background-color: ${Theme.darkgreay};
  margin: 70px 0 0 0;
 
  @media (max-width: 991px) {
