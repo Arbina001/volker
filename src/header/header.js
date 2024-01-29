@@ -8,7 +8,7 @@ import {
     Hadersection,
     Haederwrapper,
     ContactButton,
-    navigationbar,
+    Navigationbar,
     Navigationwrapper,
     Whyassetmanagmentbox,
   } from "./header.styled";
@@ -33,9 +33,9 @@ import { Container } from "../App.style";
                   <ContactButton>
                     <Managmentcontact>contact</Managmentcontact>
                   </ContactButton>
-                  <navigationbar
+                  <Navigationbar
                     src="https://cdn.zeplin.io/5fedbd677b1a145df349f5a4/assets/a22a9827-da86-48f7-8526-38cf0d7e4c92.svg"
-                    alt="navigation menu"
+                    alt="navigation-menu"
                   />
                 </Navigationwrapper>
               </Headerasset>

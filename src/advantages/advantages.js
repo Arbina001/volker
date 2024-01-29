@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  Cardcontainer,
+   Cardbox,
   Contentstyled,
   Discriptionstyled,
   Headingstyled,
@@ -15,14 +15,16 @@ import {
   Numbersdetails,
 } from "./advantages.styled";
 import Whyassetsmanagment from "../assets/advantages.png";
+import { Container } from "../App.style";
 
 export function Advantagespage() {
   return (
     <>
       <Advantagesection>
+      <Container> 
         <Advantagewrapper>
           <Advantageinerwrapper>
-            <Cardcontainer>
+            <Cardbox>
               <Advantagerightside>
                 <Imagewrapper src={Whyassetsmanagment} alt="advantages"></Imagewrapper>
               </Advantagerightside>
@@ -52,9 +54,10 @@ export function Advantagespage() {
                   </Detailsbox>
                 </Contentstyled>
               </Advantageleftside>
-            </Cardcontainer>
+            </Cardbox>
           </Advantageinerwrapper>
         </Advantagewrapper>
+        </Container>
       </Advantagesection>
     </>
   );

@@ -140,7 +140,7 @@ export const Imagewrapper = styled.img`
   }
 `;
 
-export const Cardcontainer = styled.div`
+export const  Cardbox = styled.div`
   display: flex;
   width: 100%;
   height: 590px;

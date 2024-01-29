@@ -101,7 +101,7 @@ export const Managmentcontact = styled.p`
   }
 `;
 
-export const navigationbar = styled.img`
+export const Navigationbar = styled.img`
   display: none;
 
   @media (max-width: 991px) {
