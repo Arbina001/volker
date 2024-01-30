@@ -5,7 +5,7 @@ export const Wealthmanagmentprops = (props) => {
     <>
       <Wealthdetailsdata>
         <Data>
-          <img src={props.svg} alt="correctimg" />
+          <img src={props.svg} alt="correct" />
         </Data>
         <Wealthdetails>{props.Title}</Wealthdetails>
       </Wealthdetailsdata>
