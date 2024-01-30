@@ -4,7 +4,7 @@ import {
   Mapsinnerwrapper,
   MapsBox,
   Mapsdiscription,
-  ContactAssetBox,
+  Contactassetbox,
   VolkerMunko,
   Mapsiconwrapper,
   Mapsicon,
@@ -29,7 +29,7 @@ export function Mapspage() {
                 />
               </MapsBox>
               <Mapsdiscription>
-                <ContactAssetBox>CONTACT</ContactAssetBox>
+                <Contactassetbox>CONTACT</Contactassetbox>
                 <VolkerMunko>Volker Munko</VolkerMunko>
                 <Mapsiconwrapper>
                   <Mapsicon src={Mapssearchlogo} alt="search-pin" />

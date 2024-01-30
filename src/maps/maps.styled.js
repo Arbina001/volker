@@ -4,8 +4,8 @@ import { Theme } from "../theme";
 export const Mapssection = styled.section``;
 
 export const Mapswrapper = styled.div`
-  margin: 0 19px 20px;
-  padding: 33px 20px 0 36px;
+  margin: 0 18px 20px;
+  padding: 34px 20px 0 36px;
 
   @media (max-width: 991px) {
     margin: 0;
@@ -55,12 +55,14 @@ export const Mapsdiscription = styled.div`
   }
 `;
 
-export const ContactAssetBox = styled.div`
+export const Contactassetbox = styled.div`
   display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
   font-size: 22px;
   font-weight: 500;
-  padding: 0 0 0 31px;
+  padding: 0 0 0 32px;
 
   &::before {
     content: "";
@@ -70,10 +72,10 @@ export const ContactAssetBox = styled.div`
     height: 0;
     top: 12px;
     left: -3px;
-    border:  1px solid ${Theme.lightgreay};
+    border: 1px solid ${Theme.lightgreay};
   }
   @media (max-width: 991px) {
-    padding: 0 0 3px 29px;
+    padding: 0 0 4px 28px;
   }
 `;
 
@@ -82,7 +84,7 @@ export const ContactAsset = styled.div`
   max-width: 22px;
   height: 0;
   margin: 14px 14px 0 0;
-  border:  1px solid ${Theme.lightgreay};
+  border: 1px solid ${Theme.lightgreay};
 `;
 
 export const VolkerMunko = styled.div`

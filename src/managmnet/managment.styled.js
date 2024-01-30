@@ -134,7 +134,6 @@ export const Buttonwrapper = styled.button`
 `;
 
 export const Contactusbuttonwrapper = styled.button`
-  display: none;
   width: 100%;
   height: 60px;
   border-radius: 10px;
